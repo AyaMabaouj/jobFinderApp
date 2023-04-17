@@ -47,11 +47,18 @@ class HomeAppBar extends StatelessWidget {
                       top: 0,
                       right: 0,
                       child: Container(
-                        decoration: BoxDecoration(),
+                        padding: EdgeInsets.all(4),
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          shape: BoxShape.circle,
+                        ),
                       ),
                     )
                   ],
                 ),
+              ),
+              SizedBox(
+                width: 20,
               ),
               ClipOval(
                 child: Image.asset(
