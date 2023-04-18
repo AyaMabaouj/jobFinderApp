@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Theme.of(context).accentColor,
+        backgroundColor: Color(0xFF4DB6AC),
         elevation: 0,
         onPressed: () {},
         child: Icon(

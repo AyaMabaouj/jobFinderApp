@@ -11,6 +11,7 @@ class _TagListState extends State<TagList> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.only(top: 10),
       padding: EdgeInsets.symmetric(horizontal: 25),
       height: 40,
       child: ListView.separated(
