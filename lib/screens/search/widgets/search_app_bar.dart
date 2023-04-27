@@ -19,7 +19,7 @@ class SearchAppBar extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(5),
               decoration: BoxDecoration(
-                  color: Color(0xFF4DB6AC), shape: BoxShape.circle),
+                  color:  Color(0xFF4DB6AC),shape: BoxShape.circle),
               child: Icon(
                 Icons.arrow_back,
                 color: Colors.white,

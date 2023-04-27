@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:job_finder_app/profil/profil_screen.dart';
 
 class HomeAppBar extends StatelessWidget {
   @override
@@ -60,10 +61,17 @@ class HomeAppBar extends StatelessWidget {
               SizedBox(
                 width: 20,
               ),
-              ClipOval(
-                child: Image.asset(
-                  'assets/images/avatar.png',
-                  width: 40,
+              GestureDetector(
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ProfileScreen()),
+                  );
+                },
+                child: ClipOval(
+                  child: Image.asset(
+                    'assets/images/avatar.png',
+                    width: 40,
+                  ),
                 ),
               )
             ],
